@@ -8,7 +8,9 @@ open CheeseLove.txt
 
 git init
 git add .
-git commit -m "first commit"\ngit remote add origin git@github.com:GeekJamesO/basic_repo.git\ngit push -u origin master
+git commit -m "first commit"
+git remote add origin git@github.com:GeekJamesO/basic_repo.git
+git push -u origin master
 
 touch baseball.txt
 open baseball.txt
