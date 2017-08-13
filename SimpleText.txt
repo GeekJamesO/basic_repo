@@ -1,0 +1,18 @@
+mkdir basic_repo
+cd basic_repo
+
+touch CupCakeLove.txt
+open CupCakeLove.txt
+touch CheeseLove.txt
+open CheeseLove.txt
+
+git init
+git add .
+git commit -m "first commit"\ngit remote add origin git@github.com:GeekJamesO/basic_repo.git\ngit push -u origin master
+
+touch baseball.txt
+open baseball.txt
+
+git add . 
+git commit -m "added baseball references"
+git push -u origin
